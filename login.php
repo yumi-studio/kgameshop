@@ -83,8 +83,8 @@
                           <button type="submit" class="btn btn-warning">Đăng Nhập</button>
                           <div class="text">Hoặc đăng nhập bằng :</div>
                           <div class="socialIcon">
-                              <a href="https://www.facebook.com" title="Facebook" class="btn btn-facebook btn-lg fb" target="_blank"><i class="fa fa-facebook fa-fw"></i> Facebook</a>
-                              <a href="https://plus.google.com/discover" title="Google+" class="btn btn-googleplus btn-lg google" target="_blank"><i class="fa fa-google-plus fa-fw"></i> Google+</a>
+                              <a href="https://www.facebook.com" title="Facebook" class="btn btn-facebook btn-lg fb" target="_blank"><i class="fab fa-facebook fa-fw"></i> Facebook</a>
+                              <a href="https://plus.google.com/discover" title="Google+" class="btn btn-googleplus btn-lg google" target="_blank"><i class="fab fa-google-plus fa-fw"></i> Google+</a>
                           </div>
                         </form>
                     </div>
