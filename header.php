@@ -1,8 +1,8 @@
 <?php
     session_start();
     $name = null;
-    if(isset($_SESSION['logged-in']) &&  $_SESSION['logged-in']==true){
-        $name = $_SESSION['user'];
+    if(isset($_SESSION['loggedin']) &&  $_SESSION['loggedin']==true){
+        $name = $_SESSION['username'];
     }
 ?> 
 <!DOCTYPE html>
@@ -41,7 +41,7 @@
                             if($name != null){
                                 echo $name;
                                 ?>
-                                | <a href="logout.php">Đăng xuất</a>
+                                | <a href="logoutControl.php">Đăng xuất</a>
                                 <?php
                             }else{
                                 ?>
